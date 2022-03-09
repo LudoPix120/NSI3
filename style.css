@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap'); /* importation de la police Roboto */ 
+
+*{
+	font-family:"Roboto", cursive; /* intégration de la police Roboto à tous les élements*/ 
+}
+
+/* corps body */ 
+
+body{
+	background:  url('file:///C:/Users/Ludovic/Documents/travail/Projet%20NSI/Mon%20site/image/fond.jpg') no-repeat;
+} 
+
+body header p.titre_principal{
+	color : #ffffff;
+	text-align: center; 
+	font-size: 30px 
+}
+
+/* menu de navigation*/ 
+
+nav.menu_nav{
+	background-color: #01FEDD;
+	padding: 5px;
+	border-radius: 10px;
+	margin: 1%; 
+}
+
+nav.menu_nav ul li.btn{
+	list-style-type: none;
+	display: inline-block;
+}
+
+nav.menu_nav ul li.btn a{
+	color: blue;
+	text-decoration: none;
+	padding: 5px; 
+	
+}
+
+nav.menu_nav ul li.btn:hover a{
+	color: blue; 
+	background-color: #CECECE;
+	transition: 0.3s all;
+} 	
+
+/* Pied de page*/ 
+
+ footer p img{
+	 width: 50px;
+	 
+
+ }  
+
+footer p{ 
+	color: #ffffff;  
+} 
+
+footer{
+	position : absolute; 
+	top:960px; 
+	left: 20px; 
+}
+
+/* Première partie de la page accueil*/ 
+
+div#accueil{
+	text-align: center
+} 
+
+div#accueil div.premiere_partie{
+	background-color: #ffffff;
+	height: 400px;
+	margin: 2%;
+	vertical-align: top;
+	width: 95%;
+	text-align: left;
+	border-radius: 5px;
+	display: inline-block;
+}
+
+div#accueil div.premiere_partie p, ul li{
+	margin: 1%
+} 
+
+div#accueil div.premiere_partie, ul li a{
+	text-decoration: none;
+	color: #000;
+}
+
+/* Première partie de la page présentation*/ 
+
+div#presentation div.premiere_partie{
+	background-color: #ffffff; 
+	margin-left: 2%;
+	margin-top : 0,5%;
+	vertical-align: top; 
+	width: 95%;
+	text-align: left;
+	border-radius: 5px;
+	display: inline-block; 
+}
+
+div#presentation div.premiere_partie  a{
+	color: #000;
+}
+
+/* Première partie de la page coups de coeur */ 
+
+div#coup_de_coeur div.premiere_partie{
+	background-color: #ffffff;
+	margin: 2%;
+	vertical-align: top;
+	width: 95%;
+	text-align: left;
+	border-radius: 5px;
+	display: inline-block;
+}
+
+div#coup_de_coeur div.premiere_partie p a{
+	color: #000;
+}
+
+/* Première partie de la page à propos */ 
+
+div#a_propos div.premiere_partie{
+	background-color: #ffffff;
+	margin: 2%;
+	vertical-align: top;
+	width: 95%;
+	text-align: left;
+	border-radius: 5px;
+	display: inline-block;
+}
+
+div#a_propos div.premiere_partie p,h2{
+	text-align: center; 
+} 
+	
+/* Gros titre h1*/ 
+
+.big_title{ 
+	text-align: center; 
+} 
+
+/* images */ 
+img.metiers-numeriques{
+	position: absolute;
+	left: 55%;
+	top: 325px;
+	width: 41%;
+}
+
+
+img.logo_police{ 
+	width: 8%;
+	position: absolute; 
+	left: 70%;
+	top: 525px; 
+} 
+
+/* vidéo */ 
+div.video{
+	position: absolute;
+	left: 70%;
+	top: 250px;	
+}
+
+form{
+	position: absolute;
+	left: 55%;
+	top: 575px;
+	width: 30%;
+}
